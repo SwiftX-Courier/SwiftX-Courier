@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track/Shipment</title>
+   <link rel="stylesheet" href="tracking.css">
+   <link rel="stylesheet" href="error-message.css">
+    
+</head>
+<body>
+    <img class="tracking-image" src="login.webp" alt="">
+    <div class="tracking-container">
+    <div>
+    <p class="tracking-info">
+        Check the location and
+        status of your shipments.
+    </p>
+    </div>     
+            <p class="courier-info">
+                Tracking TEXAS-Global Logistics
+            </p>
+            <div class="tracking-select">
+                <input type="radio" name="shipment" checked><p class="shipments">
+                    shipments
+                </p>
+                <input type="radio" name="shipment"><p class="online-shopping">
+                    online Shoping
+                </p>
+            </div>
+           
+            <form id="trackingForm">
+            <input  class="enter-shipments" id="trackingNumber" type="text" placeholder="Enter Your Shipping/Tracking/Guild Number E.g(AWB00000001)" required>
+              <p id="error" class="errorMessage"></p>
+            <div class="search-box">
+               <button type="submit" class="search-button">
+                    Search Now
+                </button>
+                </form>
+    </div>
+    <script src="tracking-page.js"></script>
+</body>
+</html>

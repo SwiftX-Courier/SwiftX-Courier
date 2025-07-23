@@ -1,0 +1,142 @@
+    .shipment-header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-bottom: 1px solid rgb(236, 236, 236);
+            height: 50px;
+            color: white;
+
+            margin-bottom: 40px;
+            position: fixed;
+            right: 0;
+            left: 0;
+            background-color: rgb(224, 224, 224);
+            top: 0;
+            
+            
+        }
+        .shipment-header div{
+            color: rgb(92, 92, 71);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+         button{
+            color: rgb(92, 92, 71);
+            font-weight: 700;
+            font-size: 15px;
+            border: 0;
+           background-color: blue; 
+           height: 40px;
+           border-radius: 15px;
+           color: white;
+           cursor: pointer;
+        }
+        .collection div{
+            display: inline-block;
+            line-height: 1px; 
+            margin-top: 30px;
+            padding-left: 10px;
+            border-left: 1px solid lightgray;
+        }
+        .collection{
+            display: inline-block;
+            margin-top: 60px;
+        }
+        .photo-delivered{
+            display: block;
+        }
+        .city{
+            font-size: 15px;
+            color: rgb(146, 144, 144);
+        }
+        p{
+            font-size: 17px ;
+            color: black;
+
+        }
+        .city-box{
+            padding-right: 350px;
+
+        }
+        .hr{
+            width: 300px;
+        }
+        img{
+            height: 15px;
+        }
+        .Recipient-box{
+            border: 1px solid lightgray;
+            background-color: rgb(46, 202, 139) ;
+          width: 100%;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 600;
+        }
+       .arrived-status{
+        margin-top: 100px;
+     display: grid;
+     grid-template-columns:  1fr 1fr 1fr ;
+     text-align: center;
+     
+     
+       }
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #details {
+        padding: 10px;
+        font-size: 16px;
+        overflow-x: auto;
+        word-wrap: break-word;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    td, th {
+        padding: 8px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .collection {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .city-box, .Recipient-box {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .arrived-status {
+        grid-template-columns: 1fr !important;
+        gap: 10px;
+    }
+
+    .arrived-status div {
+        padding: 10px;
+        word-wrap: break-word;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .city-box {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding: 10px;
+    }
+}
