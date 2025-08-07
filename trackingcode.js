@@ -53,17 +53,7 @@ const trackingData = {
  
 </div>
 
-<div class="arrived-status">
-    <div style="background-color: rgb(255, 0, 0);" >
-Out of orgin country{USA}
-    </div> 
- <div style="background-color: rgb(251, 255, 0); "> 
-       In Transit{Australia}
-    </div>
-    <div style="background-color: rgb(255, 0, 0);">
-        Arrived{South Africa}
-    </div> 
-</div>
+
 
 
 
@@ -290,3 +280,4 @@ Out of orgin country{USA}
        
         `
     }
+
