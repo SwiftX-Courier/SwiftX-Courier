@@ -93,7 +93,7 @@ const trackingData = {
             <p class="city">
              <img src="calendar.png" alt="">   Shipping Date
             </p>
-            2025-07-28
+            2025-08-08
             <p>
                 
             </p>
@@ -156,7 +156,7 @@ const trackingData = {
         <hr>
         <div class="city-box">
             <p class="city">
-             2025/04/02
+             2025/08/09
             </p>
             
             <p>
@@ -172,7 +172,7 @@ const trackingData = {
         <br>
         <div  class="city-box">
             <p class="city">
-             2025/04/03 
+             2025/08/09
             </p>
             
             <p>
@@ -284,6 +284,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
