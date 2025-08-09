@@ -9,7 +9,8 @@ const trackingData = {
         city: "Durban",
         addres: "25 dlokwe road, emlandweni kwaMasu 4359",
         status: "Arrived (Pending Clearance)",
-        status1: "In Transit"
+        status1: "In Transit",
+        deliverytime: "2025-08-011  20:47:21"
     },
     "ZAF005073898" : {
         trackingNumber: "ZAF005073898",
@@ -141,7 +142,7 @@ const trackingData = {
 <div>
          <div class="city-box">
             <p class="city">
-                2025/04/01
+                2025/08/08
             </p>
          
             <p>
@@ -175,7 +176,7 @@ const trackingData = {
             </p>
             
             <p>
-                Arrived Pending Clearance
+               ${customer.status1}
             </p>
           
             <div>
@@ -198,7 +199,7 @@ const trackingData = {
 
         <div class="city-box">
             <p class="city">
-                <img src="location.png" alt=""> Delivery City 
+                <img src="location.png" alt="">Addres
             </p>
             <p>
                 ${customer.addres}
@@ -222,7 +223,7 @@ const trackingData = {
             </p>
             
             <p>
-                2025-04-03 15:47:21
+                ${customer.deliverytime}
             </p>
             <hr class="hr">
         </div>
@@ -248,7 +249,7 @@ const trackingData = {
         </div>
         <div class="city-box">
             <p class="city">
-           Address
+           State
             </p>
             
             <p>
@@ -283,5 +284,6 @@ const trackingData = {
        
         `
     }
+
 
 
