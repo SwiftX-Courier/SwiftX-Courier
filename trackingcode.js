@@ -7,7 +7,7 @@ const trackingData = {
         country: "South Africa",
         state: "KwaZulu Natal",
         city: "Durban",
-        addres: "25 dlokwe road, emlandweni kwaMasu",
+        addres: "",
         status: "Arrived (Pending Clearance)",
         status1: "In Transit",
         deliverytime: "2025-08-011  20:47:21"
@@ -284,6 +284,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
