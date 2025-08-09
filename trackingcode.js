@@ -199,7 +199,7 @@ const trackingData = {
 
         <div class="city-box">
             <p class="city">
-                <img src="location.png" alt="">Addres
+                <img src="location.png" alt="">Address
             </p>
             <p>
                 ${customer.addres}
@@ -284,6 +284,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
