@@ -3,10 +3,13 @@
 const trackingData = {
     "ZAF005073892": {
         trackingNumber: "ZAF005073892",
-        name: "nkosi zamhole",
-        country: "south africa",
-        city: "capetown",
-        addres: "capetown road 123"
+        name: "Sibusiso Ntshangase",
+        country: "South Africa",
+        state: "KwaZulu Natal",
+        city: "Durban",
+        addres: "25 dlokwe road, emlandweni kwaMasu 4359",
+        status: "Arrived (Pending Clearance)",
+        status1: "In Transit"
     },
     "ZAF005073898" : {
         trackingNumber: "ZAF005073898",
@@ -39,7 +42,7 @@ const trackingData = {
         <div class="shipment-header">
  <div>
     <img src="location.png" alt="">
-    <p>Arrived Pending Clearance</p>
+    <p>${customer.status1}</p>
 </div> 
 
  <div>
@@ -249,7 +252,7 @@ const trackingData = {
             </p>
             
             <p>
-              ${customer.addres}
+              ${customer.state}
             </p>
             <hr class="hr">
         </div>
@@ -280,4 +283,5 @@ const trackingData = {
        
         `
     }
+
 
