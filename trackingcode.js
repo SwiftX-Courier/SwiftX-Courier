@@ -13,11 +13,15 @@ const trackingData = {
         deliverytime: "2025-08-011  20:47:21"
     },
     "ZAF005073898" : {
-        trackingNumber: "ZAF005073898",
-        name: "siya jknjxd",
-        country: "south africa",
-        city: "free state",
-        addres: "free state road 123"
+       trackingNumber: "ZAF005073898",
+        name: "Phathutshedzo Marandela",
+        country: "South Africa",
+        state: "Limpopo",
+        city: "Makhado",
+        addres: "P.O.BOX 48 makhado 0920",
+        status: "Arrived (Pending Clearance)",
+        status1: "In Transit",
+        deliverytime: "2025-08-011  20:47:21"
     },
     "ZAF005073889" : {
           trackingNumber: "ZAF005073889",
@@ -284,6 +288,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
