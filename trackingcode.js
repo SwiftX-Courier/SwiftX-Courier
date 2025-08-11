@@ -47,7 +47,7 @@ const trackingData = {
         <div class="shipment-header">
  <div>
     <img src="location.png" alt="">
-    <p>${customer.status1}</p>
+    <p>${customer.status}</p>
 </div> 
 
  <div>
@@ -180,11 +180,11 @@ const trackingData = {
             </p>
             
             <p>
-               ${customer.status1}
+               ${customer.status}
             </p>
           
             <div>
-                01:01:24 pm
+                09:011:24 am
             </div>
         </div>
     </div>
@@ -288,6 +288,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
