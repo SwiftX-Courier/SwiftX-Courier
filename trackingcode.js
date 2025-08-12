@@ -24,12 +24,39 @@ const trackingData = {
         deliverytime: "2025-08-011  20:47:21"
     },
     "ZAF005073889" : {
-          trackingNumber: "ZAF005073889",
-          name: "zam jjdjd",
-        country: "south africa",
-        city: "johhanesburg",
-        addres: "johhanesburg road 123"
-    }
+        trackingNumber: "ZAF005073889",
+        name: "Songezo Mbutye",
+        country: "South Africa",
+        state: "Eastern Cape",
+        city: "Port Elizabeth",
+        addres: "Nelson Mandela University, sanlam student village",
+        status: "Arrived (Pending Clearance)",
+        status1: "In Transit",
+        deliverytime: "2025-08-013  08:47:21"
+    },
+     "ZAF00507388" : {
+        trackingNumber: "ZAF00507388",
+        name: "Jabulani sifiso Gama",
+        country: "South Africa",
+        state: "Gaunteng",
+        city: "Pretoria",
+        addres: "Gaunteng, Pretoria",
+        status: "Arrived (Pending Clearance)",
+        status1: "In Transit",
+        deliverytime: "2025-08-013  08:47:21"
+    },
+       "ZAF005073880" : {
+        trackingNumber: "ZAF005073880",
+        name: "Malcolm August",
+        country: "South Africa",
+        state: "Limpopo",
+        city: "Modimolle",
+        addres: "Alf makaleng street 463 fh hospital",
+        status: "Arrived (Pending Clearance)",
+        status1: "In Transit",
+        deliverytime: "2025-08-013  08:47:21"
+    },
+    
     };
 
     const params = new URLSearchParams(window.location.search);
@@ -288,6 +315,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
