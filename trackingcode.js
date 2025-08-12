@@ -19,9 +19,9 @@ const trackingData = {
         state: "Limpopo",
         city: "Makhado",
         addres: "P.O.BOX 48 makhado 0920",
-        status: "Arrived (Pending Clearance)",
+        status12: "",
         status1: "In Transit",
-        deliverytime: "2025-08-011  20:47:21"
+        deliverytim: "2025-08-011  20:47:21"
     },
     "ZAF005073889" : {
         trackingNumber: "ZAF005073889",
@@ -30,9 +30,9 @@ const trackingData = {
         state: "Eastern Cape",
         city: "Port Elizabeth",
         addres: "Nelson Mandela University, sanlam student village",
-        status: "Arrived (Pending Clearance)",
+        status12: "",
         status1: "In Transit",
-        deliverytime: "2025-08-013  08:47:21"
+        deliverytim: "2025-08-013  08:47:21"
     },
      "ZAF00507388" : {
         trackingNumber: "ZAF00507388",
@@ -52,9 +52,9 @@ const trackingData = {
         state: "Limpopo",
         city: "Modimolle",
         addres: "Alf makaleng street 463 fh hospital",
-        status: "Arrived (Pending Clearance)",
+        status12: "",
         status1: "In Transit",
-        deliverytime: "2025-08-013  08:47:21"
+        deliverytim: "2025-08-013  08:47:21"
     },
     
     };
@@ -74,7 +74,7 @@ const trackingData = {
         <div class="shipment-header">
  <div>
     <img src="location.png" alt="">
-    <p>${customer.status}</p>
+    <p>${customer.status} ${customer.status1}</p>
 </div> 
 
  <div>
@@ -173,7 +173,7 @@ const trackingData = {
 <div>
          <div class="city-box">
             <p class="city">
-                2025/08/08
+                2025/08/010
             </p>
          
             <p>
@@ -203,11 +203,11 @@ const trackingData = {
         <br>
         <div  class="city-box">
             <p class="city">
-             2025/08/09
+             2025/08/013
             </p>
             
             <p>
-               ${customer.status}
+               ${customer.status}${customer.status1}
             </p>
           
             <div>
@@ -254,7 +254,7 @@ const trackingData = {
             </p>
             
             <p>
-                ${customer.deliverytime}
+                ${customer.deliverytime}${customer.deliverytim}
             </p>
             <hr class="hr">
         </div>
@@ -315,6 +315,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
