@@ -9,7 +9,7 @@ const trackingData = {
         city: "Durban",
         addres: "25 dlokwe road, emlandweni",
         status: "Arrived (Pending Clearance)",
-        status1: "In Transit",
+        status1: "",
         deliverytime: "2025-08-011  20:47:21"
     },
     "ZAF005073898" : {
@@ -20,7 +20,7 @@ const trackingData = {
         city: "Makhado",
         addres: "P.O.BOX 48 makhado 0920",
         status: "Arrived (Pending Clearance)",
-        status1: "In Transit",
+        status1: "",
         deliverytime: "2025-08-011  20:47:21"
     },
     "ZAF005073889" : {
@@ -30,7 +30,7 @@ const trackingData = {
         state: "Eastern Cape",
         city: "Port Elizabeth",
         addres: "Nelson Mandela University, sanlam student village",
-        status: "Arrived (Pending Clearance)",
+        status: "",
         status1: "In Transit",
         deliverytime: "2025-08-013  08:47:21"
     },
@@ -41,7 +41,7 @@ const trackingData = {
         state: "Gaunteng",
         city: "Pretoria",
         addres: "Gaunteng, Pretoria",
-        status: "Arrived (Pending Clearance)",
+        status: "",
         status1: "In Transit",
         deliverytime: "2025-08-013  08:47:21"
     },
@@ -52,7 +52,7 @@ const trackingData = {
         state: "Limpopo",
         city: "Modimolle",
         addres: "Alf makaleng street 463 fh hospital",
-        status: "Arrived (Pending Clearance)",
+        status: "",
         status1: "In Transit",
         deliverytim: "2025-08-013  08:47:21"
     },
@@ -315,6 +315,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
