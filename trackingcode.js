@@ -74,7 +74,7 @@ const trackingData = {
         <div class="shipment-header">
  <div>
     <img src="location.png" alt="">
-    <p>${customer.status}</p>
+    <p>${customer.status} ${customer.status1}</p>
 </div> 
 
  <div>
