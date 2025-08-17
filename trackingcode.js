@@ -1,16 +1,82 @@
 
 
 const trackingData = {
-    "ZAF005073892": {
-        trackingNumber: "ZAF005073892",
-        name: "Sibusiso Ntshangase",
+    "ZAF005073893": {
+        trackingNumber: "ZAF005073893",
+        name: "Mafela patience",
         country: "South Africa",
-        state: "KwaZulu Natal",
-        city: "Durban",
-        addres: "25 dlokwe road, emlandweni",
-        status: "Arrived (Pending Clearance)",
-        status1: "",
-        deliverytime: "2025-08-011  20:47:21"
+        state: "Limpopo",
+        city: "Polokwane",
+        addres: "POSTAL CODE:0727",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-019  08:47:21"
+    },
+      "ZAF005073894": {
+        trackingNumber: "ZAF005073894",
+        name: "Mihle Bambiso",
+        country: "South Africa",
+        state: "Western cape",
+        city: "Cape Town, Phillipi",
+        addres: "Cape Town, Phillipi",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-019  08:47:21"
+    },
+          "ZAF005073895": {
+        trackingNumber: "ZAF005073895",
+        name: "S.B MMgomezulu",
+        country: "South Africa",
+        state: "Nkandla",
+        city: "Nkandla",
+        addres: "Sthandiwe pre-vocational school",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-019  08:47:21"
+    },
+        "ZAF005073896": {
+        trackingNumber: "ZAF005073896",
+        name: "Sikhulule Ngxowa",
+        country: "South Africa",
+        state: "Bredasdorp ",
+        city: "Bredasdorp ",
+        addres: "84, Olumeule Street  Bredasdorp 7280",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-019  08:47:21"
+    },
+      "ZAF005073897": {
+        trackingNumber: "ZAF005073897",
+        name: "Reabetswe pelo",
+        country: "South Africa",
+        state: "Johannesburg ",
+        city: "Soweto ",
+        addres: "diepkloof 885B jack klipin",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-019  08:47:21"
+    },
+      "ZAF005073898": {
+        trackingNumber: "ZAF005073898",
+        name: "Phathutshedzo selo",
+        country: "South Africa",
+        state: "Midrand",
+        city: "Midrand ",
+        addres: "south africa, midrand",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-019  08:47:21"
+    },
+          "ZAF005073899": {
+        trackingNumber: "ZAF005073899",
+        name: "Zelio Domingos chilaule",
+        country: "South Africa",
+        state: "Johannesburg",
+        city: "Gauteng ",
+        addres: "cbd Malvern sam fransquin 208",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-019  08:47:21"
     },
     "ZAF005073898" : {
        trackingNumber: "ZAF005073898",
@@ -315,6 +381,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
