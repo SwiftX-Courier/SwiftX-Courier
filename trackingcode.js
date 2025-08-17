@@ -65,7 +65,7 @@ const trackingData = {
         trackingNumber: "ZAF0050738910",
         name: "Phathutshedzo selo",
         country: "South Africa",
-        state: "Midrand",
+        state: "Gauteng",
         city: "Midrand ",
         addres: "south africa, midrand",
         status: "",
@@ -389,6 +389,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
