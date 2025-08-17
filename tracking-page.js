@@ -1,10 +1,16 @@
 const validTrackingNumber = [
-    "ZAF005073892",
+    "ZAF005073893",
     "ZAF005073898",
     "ZAF005073889",
     "ZAF005073880",
     "ZAF00507388",
-    "ZAF005073889"
+    "ZAF005073889",
+     "ZAF005073899",
+     "ZAF005073898",
+     "ZAF005073897",
+     "ZAF005073894",
+     "ZAF005073895",
+     "ZAF005073896"
 ];
 
 document.getElementById("trackingForm").addEventListener("submit", function (event) {
@@ -22,3 +28,4 @@ document.getElementById("trackingForm").addEventListener("submit", function (eve
         }
 
 });
+
