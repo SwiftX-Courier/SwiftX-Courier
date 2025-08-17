@@ -10,7 +10,8 @@ const trackingData = {
         addres: "POSTAL CODE:0727",
         status: "",
         status1: "IN Transit",
-        deliverytime: "2025-08-019  08:47:21"
+        deliverytime: "2025-08-019  08:47:21",
+        shippingdate: "2025-08-17"
     },
       "ZAF005073894": {
         trackingNumber: "ZAF005073894",
@@ -21,7 +22,8 @@ const trackingData = {
         addres: "Cape Town, Phillipi",
         status: "",
         status1: "IN Transit",
-        deliverytime: "2025-08-019  08:47:21"
+        deliverytime: "2025-08-019  08:47:21",
+          shippingdate: "2025-08-17"
     },
           "ZAF005073895": {
         trackingNumber: "ZAF005073895",
@@ -32,7 +34,8 @@ const trackingData = {
         addres: "Sthandiwe pre-vocational school",
         status: "",
         status1: "IN Transit",
-        deliverytime: "2025-08-019  08:47:21"
+        deliverytime: "2025-08-019  08:47:21",
+              shippingdate: "2025-08-17"
     },
         "ZAF005073896": {
         trackingNumber: "ZAF005073896",
@@ -43,7 +46,8 @@ const trackingData = {
         addres: "84, Olumeule Street  Bredasdorp 7280",
         status: "",
         status1: "IN Transit",
-        deliverytime: "2025-08-019  08:47:21"
+        deliverytime: "2025-08-019  08:47:21",
+            shippingdate: "2025-08-17"
     },
       "ZAF005073897": {
         trackingNumber: "ZAF005073897",
@@ -54,7 +58,8 @@ const trackingData = {
         addres: "diepkloof 885B jack klipin",
         status: "",
         status1: "IN Transit",
-        deliverytime: "2025-08-019  08:47:21"
+        deliverytime: "2025-08-019  08:47:21",
+          shippingdate: "2025-08-17"
     },
       "ZAF005073898": {
         trackingNumber: "ZAF005073898",
@@ -65,7 +70,8 @@ const trackingData = {
         addres: "south africa, midrand",
         status: "",
         status1: "IN Transit",
-        deliverytime: "2025-08-019  08:47:21"
+        deliverytime: "2025-08-019  08:47:21",
+          shippingdate: "2025-08-17"
     },
           "ZAF005073899": {
         trackingNumber: "ZAF005073899",
@@ -76,7 +82,8 @@ const trackingData = {
         addres: "cbd Malvern sam fransquin 208",
         status: "",
         status1: "IN Transit",
-        deliverytime: "2025-08-019  08:47:21"
+        deliverytime: "2025-08-019  08:47:21",
+              shippingdate: "2025-08-17"
     },
     "ZAF005073898" : {
        trackingNumber: "ZAF005073898",
@@ -87,7 +94,8 @@ const trackingData = {
         addres: "P.O.BOX 48 makhado 0920",
         status: "Arrived (Pending Clearance)",
         status1: "",
-        deliverytime: "2025-08-011  20:47:21"
+        deliverytime: "2025-08-011  20:47:21",
+        shippingdate: "2025-08-08"
     },
     "ZAF005073889" : {
         trackingNumber: "ZAF005073889",
@@ -190,7 +198,7 @@ const trackingData = {
             <p class="city">
              <img src="calendar.png" alt="">   Shipping Date
             </p>
-            2025-08-08
+            ${customer.shippingdate}
             <p>
                 
             </p>
@@ -239,7 +247,7 @@ const trackingData = {
 <div>
          <div class="city-box">
             <p class="city">
-                2025/08/010
+                ${customer.shippingdate}
             </p>
          
             <p>
@@ -253,7 +261,7 @@ const trackingData = {
         <hr>
         <div class="city-box">
             <p class="city">
-             2025/08/09
+            ${customer.shippingdate}
             </p>
             
             <p>
@@ -269,7 +277,7 @@ const trackingData = {
         <br>
         <div  class="city-box">
             <p class="city">
-             2025/08/013
+             
             </p>
             
             <p>
@@ -381,6 +389,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
