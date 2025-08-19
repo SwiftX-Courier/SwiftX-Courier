@@ -8,8 +8,8 @@ const trackingData = {
         state: "Limpopo",
         city: "Polokwane",
         addres: "POSTAL CODE:0727",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-019  08:47:21",
         shippingdate: "2025-08-17"
     },
@@ -20,8 +20,8 @@ const trackingData = {
         state: "Western cape",
         city: "Cape Town, Phillipi",
         addres: "Cape Town, Phillipi",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-019  08:47:21",
           shippingdate: "2025-08-17"
     },
@@ -32,8 +32,8 @@ const trackingData = {
         state: "Nkandla",
         city: "Nkandla",
         addres: "Sthandiwe pre-vocational school",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-019  08:47:21",
               shippingdate: "2025-08-17"
     },
@@ -44,8 +44,8 @@ const trackingData = {
         state: "Bredasdorp ",
         city: "Bredasdorp ",
         addres: "84, Olumeule Street  Bredasdorp 7280",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-019  08:47:21",
             shippingdate: "2025-08-17"
     },
@@ -56,8 +56,8 @@ const trackingData = {
         state: "Johannesburg ",
         city: "Soweto ",
         addres: "diepkloof 885B jack klipin",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-019  08:47:21",
           shippingdate: "2025-08-17"
     },
@@ -68,8 +68,8 @@ const trackingData = {
         state: "Gauteng",
         city: "Midrand ",
         addres: "south africa, midrand",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-019  08:47:21",
           shippingdate: "2025-08-17"
     },
@@ -80,8 +80,8 @@ const trackingData = {
         state: "Johannesburg",
         city: "Gauteng ",
         addres: "cbd Malvern sam fransquin 208",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-019  08:47:21",
               shippingdate: "2025-08-17"
     },
@@ -389,6 +389,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
