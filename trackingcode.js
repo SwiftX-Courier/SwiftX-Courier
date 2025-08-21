@@ -25,7 +25,6 @@ const trackingData = {
         deliverytime: "2025-08-22  08:47:21",
         shippingdate: "2025-08-20"
     },
-
      "ZAF0050738912": {
         trackingNumber: "ZAF0050738912",
         name: "Xoliseka Mkangala ",
@@ -38,7 +37,6 @@ const trackingData = {
         deliverytime: "2025-08-22  08:47:21",
         shippingdate: "2025-08-20"
     },
-    
       "ZAF005073894": {
         trackingNumber: "ZAF005073894",
         name: "Mihle Bambiso",
@@ -415,6 +413,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
