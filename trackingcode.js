@@ -13,6 +13,32 @@ const trackingData = {
         deliverytime: "2025-08-019  08:47:21",
         shippingdate: "2025-08-17"
     },
+ "ZAF0050738911": {
+        trackingNumber: "ZAF0050738911",
+        name: "Sipiwe Micheal ",
+        country: "South Africa",
+        state: "Johannesburg",
+        city: "Johannesburg",
+        addres: "South Africa, johannesburg",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-22  08:47:21",
+        shippingdate: "2025-08-20"
+    },
+
+     "ZAF0050738912": {
+        trackingNumber: "ZAF0050738912",
+        name: "Xoliseka Mkangala ",
+        country: "South Africa",
+        state: "Alberton",
+        city: "Alberton",
+        addres: " 12488 mayeneke street thokoza",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-22  08:47:21",
+        shippingdate: "2025-08-20"
+    },
+    
       "ZAF005073894": {
         trackingNumber: "ZAF005073894",
         name: "Mihle Bambiso",
@@ -389,6 +415,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
