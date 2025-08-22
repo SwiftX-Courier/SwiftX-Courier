@@ -20,8 +20,8 @@ const trackingData = {
         state: "Johannesburg",
         city: "Johannesburg",
         addres: "South Africa, johannesburg",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-22  08:47:21",
         shippingdate: "2025-08-20"
     },
@@ -32,8 +32,8 @@ const trackingData = {
         state: "Alberton",
         city: "Alberton",
         addres: " 12488 mayeneke street thokoza",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-22  08:47:21",
         shippingdate: "2025-08-20"
     },
@@ -413,6 +413,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
