@@ -8,8 +8,8 @@ const trackingData = {
         state: "Johannesburg",
         city: "Suburb",
         addres: "2963a Mokweni Street",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -20,8 +20,8 @@ const trackingData = {
         state: "Gauteng",
         city: "Diepsloot west",
         addres: "999 Thoho close street ",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -33,8 +33,8 @@ const trackingData = {
         state: "Cape Town",
         city: "Western cape",
         addres: " cape town, western cape 7600",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -46,8 +46,8 @@ const trackingData = {
         state: "North west",
         city: "west province",
         addres: " potchefstroom",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -59,8 +59,8 @@ const trackingData = {
         state: "KwaZulu",
         city: "KwaZulu",
         addres: " Osindisweni Hosipital, Oakford road",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -72,8 +72,8 @@ const trackingData = {
         state: "Gauteng",
         city: "johannesburg",
         addres: "66 ontderkkers rd, Roodepoort 1724",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -85,8 +85,8 @@ const trackingData = {
         state: "Limpopo",
         city: "Limpopo",
         addres: "Clicks Louis Trichardt Hawana center",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -98,8 +98,8 @@ const trackingData = {
         state: "Pretoria",
         city: "Pretoria",
         addres: "Olivien ext 26 6213fudza cres",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -112,8 +112,8 @@ const trackingData = {
         state: "South africa",
         city: "South africa",
         addres: "afica, south africa",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-27  08:47:21",
         shippingdate: "2025-08-24"
     },
@@ -530,6 +530,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
