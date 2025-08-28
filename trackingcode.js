@@ -1,6 +1,19 @@
 
 
 const trackingData = {
+      "ZAF0050738922": {
+        trackingNumber: "ZAF0050738922",
+        name: " Avine Lubisi",
+        country: "South Africa",
+        state: "Plettenberb Bay",
+        city: "Plettenberb Bay",
+        addres: "75 Beachy head drive periwinkle lodge",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-08-30  08:47:21",
+        shippingdate: "2025-08-27"
+    },
+      
       "ZAF0050738913": {
         trackingNumber: "ZAF0050738913",
         name: " Teboho Armistice Tshabalala",
@@ -530,6 +543,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
