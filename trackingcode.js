@@ -8,8 +8,8 @@ const trackingData = {
         state: "Plettenberb Bay",
         city: "Plettenberb Bay",
         addres: "75 Beachy head drive periwinkle lodge",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived (Pending Clearance)",
+        status1: "",
         deliverytime: "2025-08-30  08:47:21",
         shippingdate: "2025-08-27"
     },
@@ -543,6 +543,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
