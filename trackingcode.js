@@ -1,6 +1,44 @@
 
 
 const trackingData = {
+            "ZAF0050738925": {
+        trackingNumber: "ZAF0050738925",
+        name: "Wandile khumalo",
+        country: "South Africa",
+        state: "Gauteng",
+        city: "Vosloorus",
+        addres: "Sorbet Hairbar Bedford Centre, Shop LG",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-09-3  08:47:21",
+        shippingdate: "2025-08-31"
+    },
+      
+              "ZAF0050738924": {
+        trackingNumber: "ZAF0050738924",
+        name: "Kutlo Issac",
+        country: "South Africa",
+        state: "Gauteng",
+        city: "Johannesburg",
+        addres: "17593 extension 10 orange farm",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-09-3  08:47:21",
+        shippingdate: "2025-08-31"
+    },
+
+           "ZAF0050738923": {
+        trackingNumber: "ZAF0050738923",
+        name: "Xolani Nkosi",
+        country: "South Africa",
+        state: "Bloemfontein",
+        city: "Bloemfontein",
+        addres: "south africa, Bloemfontein",
+        status: "",
+        status1: "IN Transit",
+        deliverytime: "2025-09-3  08:47:21",
+        shippingdate: "2025-08-31"
+    },
       "ZAF0050738922": {
         trackingNumber: "ZAF0050738922",
         name: " Avine Lubisi",
@@ -543,6 +581,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
