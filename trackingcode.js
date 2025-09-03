@@ -8,8 +8,8 @@ const trackingData = {
         state: "Gauteng",
         city: "Vosloorus",
         addres: "Sorbet Hairbar Bedford Centre, Shop LG",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived(Pending Clearance)",
+        status1: "",
         deliverytime: "2025-09-3  08:47:21",
         shippingdate: "2025-08-31"
     },
@@ -21,8 +21,8 @@ const trackingData = {
         state: "Gauteng",
         city: "Johannesburg",
         addres: "17593 extension 10 orange farm",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived(Pending Clearance)",
+        status1: "",
         deliverytime: "2025-09-3  08:47:21",
         shippingdate: "2025-08-31"
     },
@@ -34,8 +34,8 @@ const trackingData = {
         state: "Bloemfontein",
         city: "Bloemfontein",
         addres: "south africa, Bloemfontein",
-        status: "",
-        status1: "IN Transit",
+        status: "Arrived(Pending Clearance)",
+        status1: "",
         deliverytime: "2025-09-3  08:47:21",
         shippingdate: "2025-08-31"
     },
@@ -581,6 +581,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
