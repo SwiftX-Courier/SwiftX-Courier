@@ -1,6 +1,19 @@
 
 
 const trackingData = {
+   "ZAF0050738932": {
+        trackingNumber: "ZAF0050738932",
+        name: "Khanyiso Xezu ",
+        country: "South Africa",
+        state: "Johannssburg",
+        city: "Johannssburg",
+        addres: "south africa, johannesburg",
+        status: "",
+        status1: "IN TRANSIT",
+        deliverytime: "2025-09-12  08:47:21",
+        shippingdate: "2025-09-10"
+    },
+          
           "ZAF0050738931": {
         trackingNumber: "ZAF0050738931",
         name: "Siyanda Holideyi ",
@@ -656,6 +669,7 @@ const trackingData = {
        
         `
     }
+
 
 
 
